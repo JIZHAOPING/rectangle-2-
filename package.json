@@ -1,0 +1,26 @@
+{
+  "name": "rectangle",
+  "version": "1.0.0",
+  "description": "矩形计算器练习",
+  "main": "rectangle.js",
+  "scripts": {
+    "test":"grunt lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIZHAOPING/rectangle-2-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JIZHAOPING/rectangle-2-/issues"
+  },
+  "homepage": "https://github.com/JIZHAOPING/rectangle-2-#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  }
+}
