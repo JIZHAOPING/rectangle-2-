@@ -21,11 +21,11 @@ module.exports = function(grunt){
     },
     mocha: {
       test: {
-          src: ['test/index.html'],                    
+        src: ['test/index.html'],                    
       },
       options: {
-          run: true,
-          reporter: 'Spec'                              
+        run: true,
+        reporter: 'Spec'                              
       }
           
     }     
