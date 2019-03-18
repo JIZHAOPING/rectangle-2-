@@ -4,7 +4,7 @@
   "description": "矩形计算器练习",
   "main": "rectangle.js",
   "scripts": {
-    "test":"grunt lint"
+    "test": "grunt lint && grunt unitTest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
     "grunt": "^1.0.3",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-eslint": "^21.0.0",
-    "grunt-htmlhint": "^0.9.13"
-  }
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-mocha": "^1.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
