@@ -32,26 +32,26 @@ module.exports = function(grunt){
     },
     htmlmin: {
       options: {
-                collapseWhitespace: true,
-                        preserveLineBreaks: false
+        collapseWhitespace: true,
+        preserveLineBreaks: false
                                 
       },
       files: {
-                src: './index.html',
-                        dest: 'dist/index.html'
+        src: './index.html',
+        dest: 'dist/index.html'
                                 
       }
           
     },
     cssmin: {
-            'dist/rectangle.css': 'rectangle.css'
+      'dist/rectangle.css': 'rectangle.css'
                   
     },
     uglify: {
       release:{
         files: {
-                    'dist/rectangle.js': 'rectangle.js',
-                              'dist/calc.js': 'calc.js'
+          'dist/rectangle.js': 'rectangle.js',
+          'dist/calc.js': 'calc.js'
                                         
         }
                      
