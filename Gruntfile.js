@@ -57,38 +57,33 @@ module.exports = function(grunt){
       }
 
     },
-    useminPrepare: {
-            html: 'index.html',
-            options: {
-                      dest: 'dist'
-                              
-            }
-                
+    useminPrepare:{
+      html: 'index.html',
+      options: {
+        dest: 'dist'                             
+      }
     },
     usemin: {
-            html: ['dist/index.html']
-                  
+      html: ['dist/index.html']                 
     },
     concat: {
       options: {
-                separator: ';'
-                        
+        separator: ';'                        
       },
       js: {
-                src: ['rectangle.js', 'calc.js'],
-                        dest: 'dist/bundle.js'
-                                
+        src: ['rectangle.js', 'calc.js'],
+        dest: 'dist/bundle.js'                                
       }
           
     },
-        clean: ['dist/bundle.js', '.tmp'],
-        copy: {
-          html: {
-                    src: './index.html',
-                            dest: './dist/index.html'
+    clean: ['dist/bundle.js', '.tmp'],
+      copy: {
+        html: {
+          src: './index.html',
+          dest: './dist/index.html'
                                     
-          }
         }
+      }
       
   });
 
