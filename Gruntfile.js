@@ -77,13 +77,13 @@ module.exports = function(grunt){
           
     },
     clean: ['dist/bundle.js', '.tmp'],
-      copy: {
-        html: {
-          src: './index.html',
-          dest: './dist/index.html'
+    copy: {
+      html: {
+        src: './index.html',
+        dest: './dist/index.html'
                                     
-        }
       }
+    }
       
   });
 
